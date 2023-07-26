@@ -1,0 +1,9 @@
+Bu projemi HTML5, CSS3 ve JavaScript becerilerimi pekiştirme açısından yaptım.
+Projemde özellikle "responsive" tasarım ve düzenleme yaptım ayrıca açılır menü, buton işlevselliği gibi temel JavaScript öğelerini kullandım.
+Her bölümü "section" etiketi içinde; "sectionOne", "sectionTwo" gibi sınıflarla tanımladım.
+
+**************************************
+
+I did this project in terms of reinforcing my HTML5, CSS3 and JavaScript skills.
+In my project, I especially made "responsive" design and editing, and also used basic JavaScript elements such as drop-down menu, button functionality.
+Each section is in the "section" tag; I defined it with classes like "sectionOne", "sectionTwo".

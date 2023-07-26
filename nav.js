@@ -1,19 +1,24 @@
-const openMenu=() => {
-    document.querySelector(selectors,'.backdrop').classname ='backdrop active';
-    document.querySelector(selectors, 'aside').className = 'active';
-}
-const closeMenu=() => {
-    document.querySelector(selectors,'.backdrop').classname ='backdrop';
-    document.querySelector(selectors, 'aside').className = '';
-}
+const openMenu = () => {
+    document.querySelector('.backdrop').classList.add('active');
+    document.querySelector('aside').classList.add('active');
+};
 
-document.getElementById(elementId,'menuBtn').onclick= e => {
+const closeMenu = () => {
+    document.querySelector('.backdrop').classList.remove('active');
+    document.querySelector('aside').classList.remove('active');
+};
+
+document.getElementById('menuBtn').onclick = e => {
     e.preventDefault();
     openMenu();
-}
-document.querySelector(selectors, 'aside button.close').onclick = e => {
+};
+
+document.querySelector('aside button.close').onclick = e => {
+    e.preventDefault();
     closeMenu();
-}
-document.querySelector(selectors, '.backdrop').onclick = e => {
+};
+
+document.querySelector('.backdrop').onclick = e => {
+    e.preventDefault();
     closeMenu();
-}
+};
